@@ -1,0 +1,36 @@
+PODS:
+  - CoreDataStackManager (0.9.0)
+  - DateToolsSwift (4.0.0)
+  - MessengerKit (1.0.0)
+
+DEPENDENCIES:
+  - CoreDataStackManager
+  - DateToolsSwift (from `https://github.com/UberJason/DateTools`)
+  - MessengerKit (from `https://github.com/steve228uk/MessengerKit.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoreDataStackManager
+
+EXTERNAL SOURCES:
+  DateToolsSwift:
+    :git: https://github.com/UberJason/DateTools
+  MessengerKit:
+    :git: https://github.com/steve228uk/MessengerKit.git
+
+CHECKOUT OPTIONS:
+  DateToolsSwift:
+    :commit: 2cee2723ebc9cd099e64327fed0b0ed6d58a6194
+    :git: https://github.com/UberJason/DateTools
+  MessengerKit:
+    :commit: 98c2eef4afa43507dda501230abf40a82ff9273c
+    :git: https://github.com/steve228uk/MessengerKit.git
+
+SPEC CHECKSUMS:
+  CoreDataStackManager: 00b890d5c9a933c7c92142f7ab199c491c05c9da
+  DateToolsSwift: 61983d994c6ada66d5923abfa9afd9f3f2ff7b4b
+  MessengerKit: 98afa44728b8e12672ece6db7764433e72832bf7
+
+PODFILE CHECKSUM: 782bdf326edfa370b0625c2a9a5c2235a5256c0c
+
+COCOAPODS: 1.5.3
